@@ -1,0 +1,58 @@
+/*
+Theme Name: Plaisirs du thé
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+    height: 110px;
+}
+
+.menu {
+    display: flex;
+    top: 0;
+    left: 0; 
+    background-color: black;
+}
+
+.nav-menu {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;   
+    padding: 30px;
+}
+
+.nav-menu li {
+    display: inline;
+    position: relative;
+    bottom: -40px;
+
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 75px;
+    width: max-content;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.wp-block-heading {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
